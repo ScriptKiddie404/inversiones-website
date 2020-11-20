@@ -7,7 +7,7 @@
   padding: 0;
 }
 
-html{
+html {
   width: 100%;
 }
 
@@ -60,6 +60,29 @@ p {
   padding: 3rem 0;
 }
 
+.p-1 {
+  padding: 1.5rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+.p-3 {
+  padding: 3rem;
+}
+
+h2 {
+  font-weight: 900;
+}
+
+.bg-dark{
+  background-color: #333;
+  color:White;
+}
+
+.bg-light{
+  background-color: #f4f4f4;
+  color: #333;
+}
 
 .btn {
   display: inline-block;
@@ -76,9 +99,11 @@ p {
   color: #fff;
 }
 
+
+
 .btn:hover {
   background-color: rgb(35, 74, 146);
-} 
+}
 
 .container {
   margin: auto;
@@ -88,6 +113,16 @@ p {
 
 .text-center {
   text-align: center;
+}
+
+.list{
+  margin: 0.5rem;
+  list-style: none;
+}
+
+.list li{
+  padding: 0.5rem 0;
+
 }
 
 /* =================== */
@@ -155,26 +190,47 @@ p {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-
 /* ======================= */
 /* SECCIÓN: ¿QUÉ HACEMOS? */
 /* ======================= */
 
-#que .items{
+#que .items {
   display: flex;
   padding: 1rem;
 }
 
-#que .items .item{
+#que .items .item {
   flex: 1;
   text-align: center;
   padding: 1rem;
 }
 
-#que .items .item i{
+#que .items .item i {
   background-color: rgb(36, 182, 214);
-  color:white;
+  color: white;
   padding: 1rem;
   border-radius: 20%;
   margin-bottom: 1rem;
+}
+
+/* ======================== */
+/* SECCIÓN: ¿QUIÉNES SOMOS */
+/* ======================== */
+
+#quienes {
+  display: flex;
+}
+
+#quienes p{
+  text-align: justify;
+}
+
+#quienes div {
+  flex: 1;
+}
+
+#quienes .who-img{
+  background: url("../img/people.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: auto;
 }
