@@ -14,3 +14,45 @@
     margin-bottom: 0;
 }
 
+/* Versión para móviles */
+
+@media (max-width: 500px){
+    #navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar .logo{
+        margin-bottom: 0.75rem;
+        text-align: center;
+        transform: scale(2);
+    }
+
+    #navbar li{
+        display: none;
+    }
+
+    #quienes{
+        display: block;
+    }
+
+    #quienes .who-img{
+        display: none;
+    }
+
+    #quienes h2{
+        text-align: center;
+    }
+
+    #clients .items img{
+        width: 70%;
+        height: auto;
+    }
+
+    #contacto {
+        flex-direction: column;
+    }
+
+    
+    
+}
