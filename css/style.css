@@ -84,6 +84,11 @@ h2 {
   color: #333;
 }
 
+.bg-primary{
+  background-color:rgb(36, 182, 214);
+  color:White;
+}
+
 .btn {
   display: inline-block;
   color: #fff;
@@ -234,3 +239,44 @@ h2 {
   width: 100%;
   height: auto;
 }
+
+
+/* ================ */
+/* SECCIÓN CLIENTES */
+/* ================ */
+
+#clients .items{
+  display: flex;
+
+}
+
+#clients .items img{
+  display: block;
+  margin: auto;
+  width: 60%; 
+}
+
+/* ================ */
+/* SECCIÓN CONTACTO */
+/* ================ */
+
+#contact{
+  display: flex;
+}
+
+#contact .contact-form, #contact .map{
+  flex: 1;
+}
+
+.form-group{
+  margin: 0.7rem;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 0.5rem;
+}
+
+/* #map{
+  height: 100%;
+} */

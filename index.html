@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,13 @@
     <link rel="stylesheet" href="css/style.css">
     <title>MSA | Welcome</title>
 </head>
+
 <body id="inicio">
     <!-- BARRA DE NAVEGACIÓN -->
     <nav id="navbar">
         <h1 class="logo">
             <span class="text-primary">
-                <i class="fab fa-monero"></i> MSA 
+                <i class="fab fa-monero"></i> MSA
             </span>
             INVERSIONES
         </h1>
@@ -37,7 +39,8 @@
                 SIN LÍMITES EN TUS GANACIAS
             </h1>
             <p class="lead">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, totam sed obcaecati magnam odio aperiam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, totam sed obcaecati magnam odio
+                aperiam.
             </p>
             <a href="#que" class="btn">LEER MÁS</a>
         </div>
@@ -49,11 +52,12 @@
             <h2 class="m-heading text-center">¿<span class="text-primary">QUÉ</span> HACEMOS?</h2>
             <div class="items">
 
-                <div class="item">
+                <div class="item">  
                     <i class="fas fa-comments-dollar fa-2x"></i>
                     <div>
                         <h3>Préstamos inmediatos</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In blanditiis ea nam corrupti, obcaecati vel.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In blanditiis ea nam corrupti,
+                            obcaecati vel.</p>
                     </div>
                 </div>
 
@@ -61,7 +65,8 @@
                     <i class="fas fa-home fa-2x"></i>
                     <div>
                         <h3>Manejo hipotecario</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus consequuntur laudantium corrupti hic voluptates impedit.</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus consequuntur
+                            laudantium corrupti hic voluptates impedit.</p>
                     </div>
                 </div>
 
@@ -69,10 +74,11 @@
                     <i class="fas fa-chart-line fa-2x"></i>
                     <div>
                         <h3>Ganancias constantes</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quaerat assumenda, quos nesciunt quibusdam excepturi!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quaerat assumenda, quos
+                            nesciunt quibusdam excepturi!</p>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
@@ -86,7 +92,9 @@
 
         <div class="who-text bg-dark p-2">
             <h2 class="m-heading">¿<span class="text-primary">QUIÉNES</span> SOMOS?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nobis unde eos? Sapiente quibusdam cum error nihil ab facilis cumque, dicta, cupiditate tempore quam, nostrum maiores fuga nam unde similique! Obcaecati ea laboriosam beatae aliquam maiores consectetur vero ut molestiae?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nobis unde eos? Sapiente quibusdam cum
+                error nihil ab facilis cumque, dicta, cupiditate tempore quam, nostrum maiores fuga nam unde similique!
+                Obcaecati ea laboriosam beatae aliquam maiores consectetur vero ut molestiae?</p>
             <h3>NUESTRO EQUIPO</h3>
             <ul class="list">
                 <li>Fernando Puentes: CEO</li>
@@ -102,6 +110,71 @@
 
     <!-- SECCIÓN: CLIENTES -->
 
+    <section id="clients" class="py-1">
+        <div class="container">
+            <h2 class="m-heading text-center">
+                <span class="text-primary">NUESTROS</span> CLIENTES
+            </h2>
+            <div class="items py-1">
+                <div><img src="/img/logos/logo1.png" alt="Logo empresa"></div>
+                <div><img src="/img/logos/logo2.png" alt="Logo empresa"></div>
+                <div><img src="/img/logos/logo3.png" alt="Logo empresa"></div>
+                <div><img src="/img/logos/logo4.png" alt="Logo empresa"></div>
+                <div><img src="/img/logos/logo5.png" alt="Logo empresa"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: CONTACTO -->
+    <section id="contact">
+        <div class="contact-form bg-primary p-2">
+            <h2 class="m-heading">Contáctanos</h2>
+            <p>¡Rellena el formulario para estar en contacto!</p>
+            <form action="">
+
+                <div class="form-group">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
+                </div>
+
+                <div class="form-group">
+                    <label for="correo">Correo</label>
+                    <input type="email" name="correo" id="correo" placeholder="ejemplo@dominio.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" name="telefono" id="telefono" placeholder="Ejemplo: 555-555-55-55">
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje"
+                        placeholder="Escribe eso que nos quieres decir... :)"></textarea>
+                </div>
+
+                <input type="submit" value="ENVIAR" class="btn btn-dark">
+
+            </form>
+        </div>
+        <div class="map" id="map"></div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="main-footer" class="bg-dark text-center py-2">
+        <div class="container">
+            <p>
+                Copyright &copy; 2020 - Fernando Puentes - Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
     <script src="https://kit.fontawesome.com/357b0eedc9.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLWMPqu5pBO6WTLy1jH_gLNDi-vu2GjLM&callback=initMap&libraries=&v=weekly"
+        defer></script>
 </body>
+
 </html>
