@@ -1,8 +1,8 @@
 # Landing page: Inversiones RSA
-## Autor: Efraín Fernando Bejarano Puentes
+## Author: Efraín Fernando Bejarano Puentes
 
-El presente proyecto es una página web (*landing page*) para un sitio de inversiones implementando distintas metodologías más en boga en el desarrolo moderno de sitios web, como lo puede ser la utilización de **flexbox** y el sistema **CSS grid**.
+This project is a web page (* landing page *) for an investment site implementing the different methodologies in vogue in modern website development, such as the use of **flexbox** and the grid system.<br>
 
-Si se desea ver algo más elaborado (como el manejo de bases de datos) por favor consultar los proyectos con algún *framework* como Bootstrap o verificar los sitios hechos en PHP + Laravel, Angular o algún otro *framework* moderno para el desarrollo web en *frontend* o la conexión en el *backend*. <br>
+If you want to see something more elaborate (such as database management) please consult the projects with a *framework* such as Bootstrap or check the sites made in PHP + Laravel, Angular or some other modern *framework* for web development on *fron-tend* or the connection on the *back-end*. <br>
 
-Por favor revisar el portafolio general para navegar a través de las dinstintas categorías.
+Please review the general portfolio to navigate through the various categories.
