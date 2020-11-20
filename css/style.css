@@ -7,10 +7,14 @@
   padding: 0;
 }
 
+html{
+  width: 100%;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.4;
-
+  width: 100%;
 }
 
 a {
@@ -35,10 +39,27 @@ p {
   line-height: 1.1;
 }
 
+.m-heading {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
 .lead {
   font-size: 1.3rem;
   margin-bottom: 2rem;
 }
+
+.py-1 {
+  padding: 1.5rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+
 
 .btn {
   display: inline-block;
@@ -57,6 +78,16 @@ p {
 
 .btn:hover {
   background-color: rgb(35, 74, 146);
+} 
+
+.container {
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /* =================== */
@@ -101,7 +132,9 @@ p {
 #showcase {
   background: #333 url(../img/showcase.jpg) no-repeat center/cover;
   height: 100vh;
+  position: relative;
   color: white;
+  width: 100%;
 }
 
 #showcase .showcase-container {
@@ -110,11 +143,38 @@ p {
   text-align: center;
   justify-content: center;
   align-items: center;
-  /* Para poder centrar de manera vertical se debe asignar también una altura al contenedor */
   height: 100%;
   padding: 0 2rem;
+  /* Para poder centrar de manera vertical se debe asignar también una altura al contenedor */
+  position: absolute;
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
   /* Agregar un overlay para mejorar el contraste */
   background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+/* ======================= */
+/* SECCIÓN: ¿QUÉ HACEMOS? */
+/* ======================= */
+
+#que .items{
+  display: flex;
+  padding: 1rem;
+}
+
+#que .items .item{
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+}
+
+#que .items .item i{
+  background-color: rgb(36, 182, 214);
+  color:white;
+  padding: 1rem;
+  border-radius: 20%;
+  margin-bottom: 1rem;
 }
