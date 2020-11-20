@@ -1,63 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 /* RESETEO */
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
+
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-p{
-    margin: 0.75rem 0;
+p {
+  margin: 0.75rem 0;
 }
 
 /* =================== */
 /* CLASES DE UTILIDAD */
 /* =================== */
 
-.text-primary{
-    color: rgb(36, 182, 214);
+.text-primary {
+  color: rgb(36, 182, 214);
+}
+
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  background-color: rgb(36, 182, 214);
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: 900;
+}
+
+.btn-dark {
+  background-color: #333333;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: rgb(35, 74, 146);
 }
 
 /* =================== */
 /* BARRA DE NAVEGACIÓN */
 /* =================== */
 
-#navbar{
-    background-color: #333;
-    color: white;
-    /* Dejar fijada la barra */
-    position: sticky;
-    top: 0;
-    /* Separar los elementos: */
-    display: flex;
-    /* Repartir el espacio: */
-    justify-content: space-between;
-    z-index: 1;
-    padding: 1rem;
+#navbar {
+  background-color: #333;
+  color: white;
+  /* Dejar fijada la barra */
+  position: sticky;
+  top: 0;
+  /* Separar los elementos: */
+  display: flex;
+  /* Repartir el espacio: */
+  justify-content: space-between;
+  z-index: 1;
+  padding: 1rem;
 }
 
-#navbar ul{
-    display: flex;
-    align-items: center;
-    list-style-type: none;
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
 }
 
 #navbar ul li a {
-    color: #ffffff;
-    padding: 0.75rem;
-    margin: 0 0.25rem;
+  color: #ffffff;
+  padding: 0.75rem;
+  margin: 0 0.25rem;
 }
 
-#navbar ul li a:hover{
-    background-color: rgb(36, 182, 214);
-    border-radius: 0.5rem;
+#navbar ul li a:hover {
+  background-color: rgb(36, 182, 214);
+  border-radius: 0.5rem;
+}
+
+/* ======== */
+/* SHOWCASE */
+/* ======== */
+
+#showcase {
+  background: #333 url(../img/showcase.jpg) no-repeat center/cover;
+  height: 100vh;
+  color: white;
+}
+
+#showcase .showcase-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* Para poder centrar de manera vertical se debe asignar también una altura al contenedor */
+  height: 100%;
+  padding: 0 2rem;
+  top: 0;
+  left: 0;
+  /* Agregar un overlay para mejorar el contraste */
+  background-color: rgba(0, 0, 0, 0.6);
 }
