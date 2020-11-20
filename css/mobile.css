@@ -1,0 +1,16 @@
+#que .items{
+    display: block;
+    padding: 1rem;
+}
+
+#que .items .item {
+    display: flex;
+    text-align: left;
+}
+
+#que .items .item i {
+    margin-right: 1.3rem;
+    align-self: center;
+    margin-bottom: 0;
+}
+

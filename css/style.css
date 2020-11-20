@@ -106,7 +106,6 @@ h2 {
 }
 
 
-
 .btn:hover {
   background-color: rgb(35, 74, 146);
 }
@@ -129,6 +128,10 @@ h2 {
 .list li{
   padding: 0.5rem 0;
 
+}
+
+a:visited{
+  color: inherit;
 }
 
 /* =================== */
